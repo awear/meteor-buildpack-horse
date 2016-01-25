@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# we don't need phantomjs.
+exit 0
+
 VERSION=1.9.7
 PHANTOM_URL="https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-$VERSION-linux-x86_64.tar.bz2"
 
